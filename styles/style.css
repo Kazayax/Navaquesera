@@ -1,0 +1,292 @@
+body, button {
+	font-family: 'Montserrat', sans serif;
+}
+
+h3{
+	font-weight: bold;
+	font-size: 25px;
+
+}
+
+p{
+	padding-top: 20px;
+	line-height: 2;
+
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+header{
+	position: absolute;
+    background: #FAF0C5;
+    right: 0;
+    left: 0;
+    top: 0;
+    border: 5px #008F4C;
+    border-style: none none solid none;
+}
+
+header nav {
+    padding: 60px 0;
+
+}
+
+header nav .ecusson{
+	width: 65px;
+	position: absolute;
+	top: 0%;
+	left: 5%;
+}
+
+header nav ul{
+	display: flex;
+	justify-content: space-around;
+	font-size: 25px;
+    font-weight: bold;
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+header nav li{
+	color: black;
+}
+
+header nav li:hover{ 
+	color: #008F4C;
+	transition: 0.3s;
+}
+
+header nav .ecusson2{
+	width: 65px;
+    position: absolute;
+    top: 0%;
+    right: 5%;
+    left: auto;
+}
+
+.section {
+	padding: 80px 50px;
+}
+
+.btn{
+	padding: 10px 15px;
+	background: #008F4C;
+	border-radius: 50px;
+	border: none;
+	color: white;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.btn:hover{
+	background: #64bd94db
+}
+
+
+
+.firstDiv{
+	background-image: url("../images/navaq1.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+    background-position: -786px;
+}
+
+.firstDiv h1 {
+	color: #FAF0C5;
+	font-size: 65px;
+	font-weight: bold; 
+	position: absolute;
+	bottom: 10%;
+    left: 6%;
+    width: 33%;
+   	-webkit-text-stroke: .5px;
+	-webkit-text-stroke-color: #008F4C;
+}
+
+
+
+ .histoire{
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	background-color: beige;
+
+ }
+
+ .histoire .hstrTxt{
+ 	width: 40%;
+ }
+
+.histoire .hstrTxt h3{
+	width: 50%;
+ }
+
+.histoire .hstrTxt p{
+	width: 70%;
+	text-align: justify;
+	display: inline-block;
+
+}
+
+.histoire .hstrTxt a{
+	display: block;
+	padding-top: 10px;
+
+}
+
+.histoire .hstrImg{
+	width: 45%;
+}
+
+.histoire .hstrImg img{
+	width: 90%;
+}
+
+
+
+.activités {
+	display: flex;
+	justify-content: center;
+	background-color: grey;
+}
+
+.activités .actImg{
+	width: 40%;
+}
+
+.activités img{
+	width: 95%;
+}
+
+.activités .actTxt{
+	width: 40%;
+	padding: 0 77px;
+}
+
+.activités .actTxt h3{
+}
+
+.activités .actTxt p{
+
+}
+
+.activités .actTxt a{
+	padding-top: 10px;
+    display: block;
+    padding-top: 10px;
+}
+
+.lieux{
+	background-color: cadetblue;
+}
+
+
+.lieux h3{
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.lieux .lieuxP{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.lieux .lieuxP .pilon,
+.lieux .lieuxP .parcNeige {
+	width: 40%;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.lieux .lieuxP .pilon:after,
+.lieux .lieuxP .parcNeige:after{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 5%;
+	bottom: 0;
+	left: 5%;
+	background: rgba(0,0,0,0.2);
+}
+
+.lieux .lieuxP a{
+	position: absolute;
+    bottom: 6%;
+    z-index: 2;
+}
+
+.btn2{
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	background: none;
+	font-size: 18px;
+	padding: 5px 15px;
+	background: rgba(245,245,220,0.7);
+
+}
+
+.lieux .lieuxP .pilon img,
+.lieux .lieuxP .parcNeige img{
+	width: 90%;
+}
+
+
+.lieux .btn{
+	margin: 0 auto;
+	display: block;
+	margin: 55px auto 0;
+
+}
+
+
+					/* Dernière DIV */
+
+.doubleDiv{
+	background-color: #8c91d0;
+	display: flex;
+	justify-content: center;
+}
+
+.doubleDiv .miniDiv{
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.doubleDiv .miniDiv h3,
+.doubleDiv .miniDiv p {
+	text-align: center;
+	line-height: 1.5;
+	padding-top: 0;
+	width: 64%;
+}
+
+
+.doubleDiv .miniDiv img{
+	width: 80%;
+    padding-top: 20px;
+}
+
+
+.doubleDiv a{
+	padding-top: 20px;
+}
+
+
+
+
+footer{
+	background: black;
+	color: white;
+	padding: 100px;
+}
