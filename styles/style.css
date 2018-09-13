@@ -55,6 +55,10 @@ header nav li{
 	color: black;
 }
 
+header nav li.active{
+	color: #008F4C;
+}
+
 header nav li:hover{ 
 	color: #008F4C;
 	transition: 0.3s;
@@ -217,9 +221,9 @@ header nav .ecusson2{
     position: relative;
 }
 
-.lieux .lieuxP .pilon:after, 
+.lieux .lieuxP .pilon:after, /* rajouter un overlay sur les deux images de "explorez tous les coins du village!" */
 .lieux .lieuxP .parcNeige:after{
-	content: "";
+	content: ""; /* pas de contenu pcq c un overlay*/
 	position: absolute;
 	top: 0;
 	right: 5%;
@@ -511,32 +515,28 @@ footer{
 }
 
 				/** El pilón (3) **/
-.pilon .pilonTxt{
-	text-align: center;
-}
 
-.pilon .pilonTxt p{
-	width: 24%;
-    margin: 0 auto;
-}
-
-
-.pilon .pilonImg{
+.pilon .pilonTxtImg{
 	display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.pilon .pilonImg img{
+.pilon .pilonTxtImg img{
 	width: 30%;
 }
 
-.pilon .pilonImg img:first-child{
+.pilon .pilonTxtImg img:first-child{
 	padding: 20px 0 20px 50px;
 }
 
-.pilon .pilonImg img:last-child{
+.pilon .pilonTxtImg img:last-child{
 	padding: 20px 50px 20px 0;
+}
+
+.pilonTxtImg .pilonTxt{
+	width: 20%;
+    text-align: center;
 }
 
 
@@ -677,7 +677,7 @@ footer{
 .petanque .petanque2{
 	display: flex;
 	align-items: center;
-	justify-content: flex-end;
+	justify-content: space-around;
 }
 
 .petanque .petanque2 p{
@@ -692,34 +692,46 @@ footer{
 
 				/** Basketball (2) **/
 
-.basket {
+.basket .basketImgTxt {
 	display: flex;
-}
-
-.basket .basketImg{
-	width: 50%;
-}
-
-.basket .basketImg img{
+	justify-content: space-around;
+	align-items: center;
 	width: 100%;
 }
 
-.basket .basketImg p{
-	text-align: center;
-    padding: 5px 0 30px 0;
+.basket .basketImgTxt .basketImg1{
+	width: 50%;
+}
+
+.basket .basketImgTxt .basketImg1 img{
+	width: 100%;
+}
+
+.basket .basketImgTxt .basketTxt{
+	width: 30%;
+}
+
+.basket .basketImgTxt .basketImg1 p{
+	padding: 0;
     font-style: italic;
+    text-align: center;
 }
 
-.basket .basketTxt{
-	width: 50%;
+.basket .basketImg2 {
+    width: 50%;
+    margin-left: auto;
 }
 
-.basket .basketTxt h3,
-.basket .basketTxt p{
-	width: 50%;
-	margin: 0 auto;
-	text-align: justify;
+.basket .basketImg2 img{
+	width: 100%;
 }
+
+.basket .basketImg2 p{
+	padding: 0;
+	text-align: center;
+}
+
+
 
 
 				/** Football (3) **/
@@ -831,6 +843,9 @@ footer{
 
 .pantano .pantanoImg{
 	width: 100%;
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .pantano .pantanoImg img{
@@ -875,4 +890,108 @@ footer{
 
 .promenade .promenadeTaur img{
 	width: 42%;
+}
+
+
+
+
+/*********** CINQUIÈME PAGE: FÊTES ***********/
+
+.fetes .fetesTxt{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.fetes .fetesTxt img{
+	padding-bottom: 50px;
+}
+
+.fetes .fetesTxt p{
+	text-align: justify;
+	width: 34%;
+}
+
+.fetes .fetesPena{
+	text-align: center;
+}
+
+.fetes .fetesPena p{
+	width: 71%;
+	margin: 0 auto;
+}
+
+.fetes .fetesDJ p{
+	width: 55%;
+	padding: 50px 0 30px 0;
+	text-align: center;
+	margin: 0 auto
+}
+
+.fetes .fetesDJ{
+	width: 100%;
+}
+
+.fetes .fetesDJ img{
+	width: 35%;
+}
+
+.fetes .fetesDJ .pDJ2{
+	display: flex;
+	justify-content: space-around;
+}
+
+.fetes .fetesDJ .pDJ2 p{
+	padding: 0 0 30px 0;
+	font-style: italic;
+}
+
+.fetes .fetesImg1{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.fetes .fetesImg2,
+.fetes .fetesImg3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.fetes .fetesImg2 img,
+.fetes .fetesImg3 img{
+	padding-right: 10px;
+}
+
+
+.fetes .fetesDJ .pDJ3{
+	padding: 0;
+	font-style: italic;
+}
+
+/*********** SIXIÈME PAGE: ASSO ***********/
+
+.association p{
+	padding-bottom: 20px;
+}
+
+.association .assoImg,
+.association .assoTxt{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.association .assoImg img{
+	width: 45%;
+}
+
+.association .assoTxt p:first-child{
+	width: 45%;
+}
+
+.association .assoTxt p:last-child{
+	width: 44%;
 }
