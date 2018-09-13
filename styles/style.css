@@ -4,14 +4,14 @@ body, button {
 
 h3{
 	font-weight: bold;
-	font-size: 25px;
+	font-size: 30px;
+	text-decoration: underline;
 
 }
 
 p{
 	padding-top: 20px;
 	line-height: 2;
-
 }
 
 a{
@@ -87,7 +87,7 @@ header nav .ecusson2{
 }
 
 
-/******************* DIV PHOTO + TITRE *******************/
+/************* DIV PHOTO + TITRE *************/
 
 
 
@@ -112,7 +112,7 @@ header nav .ecusson2{
 }
 
 
-/********************* DIV HISTOIRE *********************/
+					/** DIV1 Histoire **/
 
 
 
@@ -130,6 +130,7 @@ header nav .ecusson2{
 
 .histoire .hstrTxt h3{
 	width: 50%;
+	text-decoration: none;
  }
 
 .histoire .hstrTxt p{
@@ -154,7 +155,7 @@ header nav .ecusson2{
 }
 
 
-/********************* DIV ACTIVITÉS *********************/
+					/** DIV2 Activités **/
 
 
 .activités {
@@ -177,10 +178,7 @@ header nav .ecusson2{
 }
 
 .activités .actTxt h3{
-}
-
-.activités .actTxt p{
-
+	text-decoration: none;
 }
 
 .activités .actTxt a{
@@ -190,7 +188,7 @@ header nav .ecusson2{
 }
 
 
-/********************* DIV LIEUX *********************/
+					/** DIV3 Lieux **/
 
 
 .lieux{
@@ -201,6 +199,7 @@ header nav .ecusson2{
 .lieux h3{
 	text-align: center;
 	padding-bottom: 40px;
+	text-decoration: none;
 }
 
 .lieux .lieuxP{
@@ -210,7 +209,7 @@ header nav .ecusson2{
 }
 
 .lieux .lieuxP .pilon,
-.lieux .lieuxP .parcNeige {
+.lieux .lieuxP .parcNeige { /* Pour que le style s'applique aux deux div */
 	width: 40%;
 	display: flex;
     flex-direction: column;
@@ -218,7 +217,7 @@ header nav .ecusson2{
     position: relative;
 }
 
-.lieux .lieuxP .pilon:after,
+.lieux .lieuxP .pilon:after, 
 .lieux .lieuxP .parcNeige:after{
 	content: "";
 	position: absolute;
@@ -265,7 +264,7 @@ header nav .ecusson2{
 }
 
 
-/********************* Dernière DIV *********************/
+					/** DIV4 Fêtes+Asso **/
 
 .doubleDiv{
 	background-color: grey;
@@ -286,6 +285,7 @@ header nav .ecusson2{
 	line-height: 1.5;
 	padding-top: 0;
 	width: 64%;
+	text-decoration: none;
 }
 
 
@@ -305,17 +305,574 @@ footer{
 	padding: 100px;
 }
 
-/******* STYLE APPLIQUÉ A TOUTES LES DIV DES DIFFÉRENTES SECTIONS *******/
+/* STYLE APPLIQUÉ A TOUTES LES DIV DES DIFFÉRENTES SECTIONS */
 
 .paddT {
 	padding-top: 200px
 }
 
-.paddL{
+.paddLR{
 	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 100px;
+}
+
+
+/************* DEUXIÈME PAGE: HISTOIRE *************/
+
+/*header nav ul{ --> la rubrique où l'on est soit en vert
+	color: green;
+}*/
+
+
+
+			/** Informations (1) **/
+
+.infos{
+	display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+
+.infos .infosTxt{
+	width: 19%
+}
+
+.infos .infosImg{
+	width: 35%
+}
+
+.infos .infosImg img{
+	width: 100%;
+}
+
+.infosTxt h3{
+    padding: 0 0 15px 10px;
+}
+
+.infosTxt ul{
+	padding-top: 0;
+	line-height: 1.5;
+}
+
+
+		/** Signification de l'écusson (2) **/
+
+.signEcu {
+	display: flex;
+	justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.signEcuImg{
+	width: 17%;
+}
+
+.signEcuImg img{
+	width: 100%;
+}
+
+.signEcuTxt{
+	width: 38%;
+	text-align: justify;
+}
+
+
+		/** L'histoire de Navaquesera (3) **/
+
+.histNavaq p{
+	text-align: justify;
+	padding-right: 50px;
+}
+
+.histNavaq .histNavaqImg1 {
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.histNavaq .histNavaqImg1 img:last-child{
+	width: 22%;
+}
+
+
+.histNavaq .histNavaqImg2{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.histNavaq .histNavaqImg2 img{
+	width: 30%;
+	padding-right: 5px;
+}
+
+.histNavaq .imgHistNavaq2{
+	display: flex;
+	justify-content: center;
+	padding: 20px 0;
+
+}
+
+.histNavaq .histNavaqTxt2 p{
+	text-align: center;
+}
+
+
+.histNavaq .histNavaqImg3 {
+	padding-top: 20px;
+}
+
+.slick-slide{
+	height: auto;
+	outline: none;
+}
+
+.histNavaq .histNavaqImg3 .slide img{
+	display: block;
+    margin: 0 auto;
+}
+
+.histNavaq .finSlide{
+	font-style: italic;
+	text-align: center;
+	padding: 5px;
+}
+
+/************* TROISIÈME PAGE: LIEUX *************/
+
+			/** La place + Mairie (1) **/
+
+.plazaMairie{
+	display: flex;
+	justify-content: space-around;
+}
+
+.plaza, .mairie{
+	width: 40%;
+}
+
+.plazaMairie .plaza img{
+	width: 100%;
+}
+
+.plazaMairie .plaza .plaza1{
+	padding-top: 50px;
+}
+
+.plazaMairie .plaza .plaza2{
+	padding-top: 150px;
+}
+
+.plaza p{
+	text-align: justify;
+}
+
+.mairie h3{
+	padding-bottom: 10px;
+}
+
+.mairie p{
+	width: 75%;
+	text-align: justify;
+	padding-top: 0;
+}
+
+.mairie img{
+	width: 75%;
+	padding-bottom: 10px;
+}
+
+
+				/** Le parc (2) **/
+
+.parc .parcTxt{
+	text-align: center;
+}
+
+.parc .parcTxt p{
+    width: 61%;
+    margin: 0 auto;
+    padding: 10px 0 20px 0;
+}
+
+.parc .parcImg{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.parc .parcImg img{
+	width: 45%;
+}
+
+				/** El pilón (3) **/
+.pilon .pilonTxt{
+	text-align: center;
+}
+
+.pilon .pilonTxt p{
+	width: 24%;
+    margin: 0 auto;
+}
+
+
+.pilon .pilonImg{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pilon .pilonImg img{
+	width: 30%;
+}
+
+.pilon .pilonImg img:first-child{
+	padding: 20px 0 20px 50px;
+}
+
+.pilon .pilonImg img:last-child{
+	padding: 20px 50px 20px 0;
+}
+
+
+.pilon .pilonImg2{
+	display: block;
+    margin: 0 auto;
 }
 
 
 
-/***************** DEUXIÈME PAGE: HISTOIRE ****************/
+				/** L'église (4) **/
 
+.eglise .egliseTxt{
+	text-align: center;
+}
+
+.eglise .egliseTxt p{
+	padding: 10px 0 20px 0;
+}
+
+.eglise .egliseImg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.eglise .egliseImg img{
+	width: 45%;
+	padding-right: 20px;
+}
+
+
+
+				/** Rocher plat (5) **/
+
+.rocherPlat .rocherPlatTxt p{
+	width: 55%;
+	text-align: justify;
+}
+
+.rocherPlat .rocherPlatImg1 img{
+	width: 55%;
+}
+.rocherPlat .rocherPlatImg2 img{
+	width: 60%;
+}
+
+.rocherPlat .rocherPlatImg2{
+	text-align: right;
+    padding-top: 5px;
+}
+
+.rocherPlat .rocherPlatImg2 p{
+	padding: 0;
+	font-style: italic;
+}
+
+
+				/** El Mirador (6) **/
+				/** El Calvario (7) **/
+
+.mirador .miradorTxt,
+.calvario .calvarioTxt{
+	text-align: center;
+}
+
+.mirador .miradorTxt p,
+.calvario .calvarioTxt p{
+	width: 60%;
+	margin: 0 auto;
+	padding: 10px 0 20px 0;
+}
+
+.mirador img,
+.calvario img{
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+				/** La nava (8) **/
+
+.nava .navaTxtImg1,
+.nava .navaTxtImg2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nava .navaTxt1,
+.nava .navaTxt2{
+	text-align: justify
+}
+
+.nava .navaTxt1 h3{
+	text-align: center;
+}
+
+
+.nava .navaTxt1 p,
+.nava .navaTxt2 p{
+	width: 44%;
+	margin: 0 auto;
+}
+
+.nava .navaTxtImg1 img{
+	width: 45%;
+}
+
+.nava .navaTxtImg2 img{
+	width: 55%;
+}
+
+
+				/** Le spot secret (9) **/
+
+.spot .spotTxt p{
+	padding: 10px 0 20px 0;
+}
+
+
+
+/*********** QUATRIÈME PAGE: ACTIVITÉ ***********/
+
+				/** Pétanque (1) **/
+
+.petanque .petanque1 p{
+    width: 50%;
+    text-align: justify;
+    justify-content: center;
+}
+
+.petanque .petanque1 img{
+	width: 50%;
+}
+
+.petanque .petanque2{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.petanque .petanque2 p{
+	width: 24%;
+	text-align: justify;
+	padding-right: 100px;
+}
+
+.petanque .petanque2 img{
+	width: 45%;
+}
+
+				/** Basketball (2) **/
+
+.basket {
+	display: flex;
+}
+
+.basket .basketImg{
+	width: 50%;
+}
+
+.basket .basketImg img{
+	width: 100%;
+}
+
+.basket .basketImg p{
+	text-align: center;
+    padding: 5px 0 30px 0;
+    font-style: italic;
+}
+
+.basket .basketTxt{
+	width: 50%;
+}
+
+.basket .basketTxt h3,
+.basket .basketTxt p{
+	width: 50%;
+	margin: 0 auto;
+	text-align: justify;
+}
+
+
+				/** Football (3) **/
+
+.foot{
+	text-align: center;
+}
+
+.foot p{
+	padding: 10px 0 20px 0;
+	text-align: center;
+}
+
+.foot .footBanc{
+	width: 100%
+}
+
+.foot .footBanc p{
+	padding: 20px 0 10px 0;
+}
+
+.foot .footBanc img{
+	width: 50%;
+}
+
+
+				/** Carrera (4) **/
+
+.carrerra h3{
+	padding-bottom: 20px;
+}
+
+.carrera .carreraImg1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carrera .carreraImg1 img:first-child{
+	width: 47%;
+}
+
+.carrera .carreraImg1 img:last-child{
+	width: 47%;
+}
+
+.carrera .carreraTxt{
+	padding: 40px 0;
+}
+
+.carrera .carreraImg2{
+	width: 100%
+}
+
+.carrera .carreraImg2 img{
+	width: 49%;
+}
+
+
+				/** Comida (5) **/
+
+.comida .comidaTxt{
+	text-align: center;
+	padding-bottom: 20px;
+
+}
+
+.comida .comidaImg{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.comida .comidaImg img:first-child{
+	width: 25%;
+	padding-right: 5px;
+}
+
+.comida .comidaImg img:last-child{
+	width: 59%;
+}
+
+
+
+			/** Jeux enfants (6) **/		
+				/** Piscine (7) **/
+
+.jeux .jeuxTxt p{
+	width: 35%;
+}
+
+.jeux .jeuxImg,
+.piscine .piscineImg{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.jeux .jeuxImg img,
+.piscine .piscineImg img{
+	width: 45%;
+}
+
+
+
+				/** El Pantano (8) **/
+
+.pantano .pantanoImg{
+	width: 100%;
+}
+
+.pantano .pantanoImg img{
+	width: 45%;
+}
+
+
+
+
+				/** Madrid (9) **/
+
+.madrid .PRM{
+	font-style: italic;
+	float: right;
+	padding: 0;
+}
+
+
+				/** Promande (10) **/
+
+.promenade .promenadeAne{
+	display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.promenade .promenadeAne p{
+	width: 30%;
+    padding: 0;
+    text-align: justify;
+}
+
+.promenade .promenadeAne img{
+	width: 20%;
+}
+
+.promenade .promenadeTaur{
+	display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.promenade .promenadeTaur img{
+	width: 42%;
+}
