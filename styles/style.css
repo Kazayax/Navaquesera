@@ -303,11 +303,11 @@ header nav .ecusson2{
 	padding-top: 20px;
 }
 
-footer{
-	background: black;
+/*footer{
+	background: #1f1f1f;
 	color: white;
 	padding: 100px;
-}
+} */
 
 /* STYLE APPLIQUÉ A TOUTES LES DIV DES DIFFÉRENTES SECTIONS */
 
@@ -677,17 +677,18 @@ footer{
 .petanque .petanque2{
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .petanque .petanque2 p{
 	width: 24%;
 	text-align: justify;
-	padding-right: 100px;
+	display: block;
+    margin: 0 auto;
 }
 
 .petanque .petanque2 img{
-	width: 45%;
+	width: 50%;
 }
 
 				/** Basketball (2) **/
@@ -744,6 +745,19 @@ footer{
 	padding: 10px 0 20px 0;
 	text-align: center;
 }
+
+.foot .footCdm {
+	width: 100%
+}
+
+.foot .footCdm img:first-child{
+	width: 30%;
+}
+
+.foot .footCdm img:last-child{
+	width: 44%;
+}
+
 
 .foot .footBanc{
 	width: 100%
@@ -848,6 +862,10 @@ footer{
     justify-content: space-between;
 }
 
+.pantano .pantanoTxt p{
+	padding: 20px 0;
+}
+
 .pantano .pantanoImg img{
 	width: 45%;
 }
@@ -886,6 +904,7 @@ footer{
 	display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding-bottom: 100px;
 }
 
 .promenade .promenadeTaur img{
@@ -994,4 +1013,63 @@ footer{
 
 .association .assoTxt p:last-child{
 	width: 44%;
+}
+
+.association .assoTxt a{
+	text-decoration: underline;
+}
+
+.association .assoTxt a:hover{
+	color: #008F4C;
+	font-weight: bold;
+}
+
+
+
+/*********** FOOTER ***********/
+
+footer{
+	background: #3d3d3d;
+	color: white;
+	padding: 50px;
+}
+
+footer .footerAll {
+	display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer .diputacion{
+	width: 20%;
+	display: flex;
+	/*flex-direction: column;*/
+	align-items: center;
+}
+
+footer .diputacion img{
+	width: 40%;
+}
+
+footer .diputacion p{
+	padding: 0;
+}
+
+footer .flaticon ul li{
+	padding-bottom: 10px;
+	display: flex;
+    align-items: center;
+}
+
+footer .flaticon ul li a{
+	padding-left: 10px;
+}
+
+footer .reseaux img{
+	padding-right: 50px;
+}
+
+footer .moi {
+	float: right;
+	padding: 0;
 }
