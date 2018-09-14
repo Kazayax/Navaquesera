@@ -5,13 +5,11 @@ body, button {
 h3{
 	font-weight: bold;
 	font-size: 30px;
-	text-decoration: underline;
-
 }
 
 p{
-	padding-top: 20px;
-	line-height: 2;
+	padding-top: 10px;
+	line-height: 1.7;
 }
 
 a{
@@ -30,21 +28,21 @@ header{
 }
 
 header nav {
-    padding: 60px 0;
+    padding: 50px 0;
 
 }
 
 header nav .ecusson{
-	width: 65px;
+	width: 50px;
 	position: absolute;
-	top: 0%;
+	top: 8%;
 	left: 5%;
 }
 
 header nav ul{
 	display: flex;
 	justify-content: space-around;
-	font-size: 25px;
+	font-size: 21px;
     font-weight: bold;
     width: 70%;
     margin: 0 auto;
@@ -65,9 +63,9 @@ header nav li:hover{
 }
 
 header nav .ecusson2{
-	width: 65px;
+	width: 50px;
     position: absolute;
-    top: 0%;
+    top: 8%;
     right: 5%;
     left: auto;
 }
@@ -77,11 +75,12 @@ header nav .ecusson2{
 }
 
 .btn{
-	padding: 10px 15px;
+	padding: 12px 22px;
 	background: #008F4C;
 	border-radius: 50px;
 	border: none;
 	color: white;
+	font-size: 17px;
 	transition: 0.5s;
 	cursor: pointer;
 }
@@ -111,8 +110,6 @@ header nav .ecusson2{
 	bottom: 10%;
     left: 6%;
     width: 33%;
-   	-webkit-text-stroke: .5px;
-	-webkit-text-stroke-color: #008F4C;
 }
 
 
@@ -134,8 +131,7 @@ header nav .ecusson2{
 
 .histoire .hstrTxt h3{
 	width: 50%;
-	text-decoration: none;
- }
+}
 
 .histoire .hstrTxt p{
 	width: 70%;
@@ -146,8 +142,7 @@ header nav .ecusson2{
 
 .histoire .hstrTxt a{
 	display: block;
-	padding-top: 10px;
-
+	padding-top: 20px;
 }
 
 .histoire .hstrImg{
@@ -156,6 +151,7 @@ header nav .ecusson2{
 
 .histoire .hstrImg img{
 	width: 100%;
+	padding: 30px 0;
 }
 
 
@@ -165,7 +161,8 @@ header nav .ecusson2{
 .activités {
 	display: flex;
 	justify-content: center;
-	background-color: grey;
+	align-items: center;
+	background-color: #D3D3D3;
 }
 
 .activités .actImg{
@@ -174,6 +171,7 @@ header nav .ecusson2{
 
 .activités img{
 	width: 95%;
+	padding: 30px 0;
 }
 
 .activités .actTxt{
@@ -181,14 +179,9 @@ header nav .ecusson2{
 	padding: 0 77px;
 }
 
-.activités .actTxt h3{
-	text-decoration: none;
-}
-
 .activités .actTxt a{
-	padding-top: 10px;
+	padding-top: 20px;
     display: block;
-    padding-top: 10px;
 }
 
 
@@ -202,8 +195,7 @@ header nav .ecusson2{
 
 .lieux h3{
 	text-align: center;
-	padding-bottom: 40px;
-	text-decoration: none;
+	padding-bottom: 50px;
 }
 
 .lieux .lieuxP{
@@ -271,7 +263,7 @@ header nav .ecusson2{
 					/** DIV4 Fêtes+Asso **/
 
 .doubleDiv{
-	background-color: grey;
+	background-color: #D3D3D3;
 	display: flex;
 	justify-content: center;
 }
@@ -289,25 +281,18 @@ header nav .ecusson2{
 	line-height: 1.5;
 	padding-top: 0;
 	width: 64%;
-	text-decoration: none;
 }
 
 
 .doubleDiv .miniDiv img{
 	width: 75%;
-    padding-top: 20px;
+    padding: 25px 0 15px 0;
 }
 
 
 .doubleDiv a{
 	padding-top: 20px;
 }
-
-/*footer{
-	background: #1f1f1f;
-	color: white;
-	padding: 100px;
-} */
 
 /* STYLE APPLIQUÉ A TOUTES LES DIV DES DIFFÉRENTES SECTIONS */
 
@@ -323,12 +308,6 @@ header nav .ecusson2{
 
 
 /************* DEUXIÈME PAGE: HISTOIRE *************/
-
-/*header nav ul{ --> la rubrique où l'on est soit en vert
-	color: green;
-}*/
-
-
 
 			/** Informations (1) **/
 
@@ -357,7 +336,7 @@ header nav .ecusson2{
 
 .infosTxt ul{
 	padding-top: 0;
-	line-height: 1.5;
+	line-height: 1.7;
 }
 
 
@@ -375,7 +354,7 @@ header nav .ecusson2{
 }
 
 .signEcuImg img{
-	width: 100%;
+	width: 90%;
 }
 
 .signEcuTxt{
@@ -385,21 +364,23 @@ header nav .ecusson2{
 
 
 		/** L'histoire de Navaquesera (3) **/
+.histNavaq{
+	padding-top: 20px;
+}
 
 .histNavaq p{
-	text-align: justify;
 	padding-right: 50px;
 }
 
 .histNavaq .histNavaqImg1 {
-	display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 20px 0;
+	text-align: center;
+    padding: 50px 0;
 }
 
-.histNavaq .histNavaqImg1 img:last-child{
-	width: 22%;
+.histNavaq .histNavaqImg1 p{
+	padding: 0;
+	font-size: 12px;
+	font-style: italic;
 }
 
 
@@ -407,7 +388,7 @@ header nav .ecusson2{
 	display: flex;
     align-items: center;
     justify-content: center;
-    padding: 30px 0;
+    padding: 50px 0;
 }
 
 .histNavaq .histNavaqImg2 img{
@@ -418,7 +399,7 @@ header nav .ecusson2{
 .histNavaq .imgHistNavaq2{
 	display: flex;
 	justify-content: center;
-	padding: 20px 0;
+	padding: 50px 0;
 
 }
 
@@ -436,6 +417,30 @@ header nav .ecusson2{
 	outline: none;
 }
 
+.histNavaqImg3 .slick-prev{
+	left: 10%;
+}
+
+.histNavaqImg3 .slick-next{
+	right: 10%;
+}
+
+
+.histNavaqImg3 .slick-prev,
+.histNavaqImg3 .slick-next{
+	z-index: 9999;
+    width: 50px;
+    height: 50px;
+}
+
+.histNavaqImg3 .slick-prev::before,
+.histNavaqImg3 .slick-next::before{
+	font-size: 50px;
+    line-height: 1.16;
+    color: #cccccc;
+    opacity: 1;
+}
+
 .histNavaq .histNavaqImg3 .slide img{
 	display: block;
     margin: 0 auto;
@@ -444,7 +449,7 @@ header nav .ecusson2{
 .histNavaq .finSlide{
 	font-style: italic;
 	text-align: center;
-	padding: 5px;
+	padding: 10px;
 }
 
 /************* TROISIÈME PAGE: LIEUX *************/
@@ -493,6 +498,11 @@ header nav .ecusson2{
 
 
 				/** Le parc (2) **/
+
+.parc{
+	padding-top: 20px;
+
+}
 
 .parc .parcTxt{
 	text-align: center;
@@ -664,10 +674,26 @@ header nav .ecusson2{
 
 				/** Pétanque (1) **/
 
-.petanque .petanque1 p{
+.petanque .petanque1{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.petanque .petanque1 .petanque1Txt{
+	padding-bottom: 50px;
+}
+
+.petanque .petanque1 .petanque1Txt h3{
+	text-align: center;
+}
+
+.petanque .petanque1 .petanque1Txt p{
     width: 50%;
     text-align: justify;
     justify-content: center;
+    margin: 0 auto;
+
 }
 
 .petanque .petanque1 img{
@@ -695,7 +721,7 @@ header nav .ecusson2{
 
 .basket .basketImgTxt {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 	width: 100%;
 }
@@ -710,6 +736,7 @@ header nav .ecusson2{
 
 .basket .basketImgTxt .basketTxt{
 	width: 30%;
+	margin: auto;
 }
 
 .basket .basketImgTxt .basketImg1 p{
@@ -748,6 +775,7 @@ header nav .ecusson2{
 
 .foot .footCdm {
 	width: 100%
+	padding: 10px 0 50px 0;
 }
 
 .foot .footCdm img:first-child{
@@ -769,6 +797,7 @@ header nav .ecusson2{
 
 .foot .footBanc img{
 	width: 50%;
+	padding: 20px 0;
 }
 
 
@@ -796,13 +825,30 @@ header nav .ecusson2{
 	padding: 40px 0;
 }
 
+.carrera .carreraTxt p{
+	width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .carrera .carreraImg2{
-	width: 100%
+	width: 100%;
+	text-align: center;
 }
 
 .carrera .carreraImg2 img{
-	width: 49%;
+	width: 45%;
 }
+
+.carrera .carreraImg2 img:first-child{
+	padding-right: 10px;
+}
+
+.carrera .carreraImg2 img:last-child{
+	padding-left: 10px;
+}
+
+
 
 
 				/** Comida (5) **/
@@ -836,6 +882,7 @@ header nav .ecusson2{
 
 .jeux .jeuxTxt p{
 	width: 35%;
+	padding-bottom: 30px;
 }
 
 .jeux .jeuxImg,
@@ -851,6 +898,10 @@ header nav .ecusson2{
 	width: 45%;
 }
 
+.piscineTxt{
+	padding-bottom: 30px;
+}
+
 
 
 				/** El Pantano (8) **/
@@ -862,12 +913,18 @@ header nav .ecusson2{
     justify-content: space-between;
 }
 
+.pantano .pantanoTxt h3{
+	text-align: center;
+}
+
 .pantano .pantanoTxt p{
-	padding: 20px 0;
+	width: 63%;
+	padding-bottom: 40px;
+	margin: 0 auto;
 }
 
 .pantano .pantanoImg img{
-	width: 45%;
+	width: 32%;
 }
 
 
@@ -875,12 +932,15 @@ header nav .ecusson2{
 
 				/** Madrid (9) **/
 
+.madrid p{
+	padding: 5px 0 30px 0; 
+}
+
 .madrid .PRM{
 	font-style: italic;
 	float: right;
 	padding: 0;
 }
-
 
 				/** Promande (10) **/
 
@@ -916,33 +976,40 @@ header nav .ecusson2{
 
 /*********** CINQUIÈME PAGE: FÊTES ***********/
 
-.fetes .fetesTxt{
+.fetes .fetesTxtImg{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 }
 
-.fetes .fetesTxt img{
+.fetes .fetesTxtImg img{
 	padding-bottom: 50px;
 }
 
-.fetes .fetesTxt p{
-	text-align: justify;
+.fetes .fetesTxtImg .fetesTxt h3{
+	text-align: center;
+}
+
+.fetes .fetesTxtImg .fetesTxt p{
 	width: 34%;
+	margin: 0 auto;
+	text-align: justify;
 }
 
 .fetes .fetesPena{
 	text-align: center;
+	padding-bottom: 30px;
 }
 
 .fetes .fetesPena p{
 	width: 71%;
 	margin: 0 auto;
+	padding-bottom: 30px;
 }
 
 .fetes .fetesDJ p{
 	width: 55%;
-	padding: 50px 0 30px 0;
+	padding: 50px 0 45px 0;
 	text-align: center;
 	margin: 0 auto
 }
@@ -958,6 +1025,7 @@ header nav .ecusson2{
 .fetes .fetesDJ .pDJ2{
 	display: flex;
 	justify-content: space-around;
+	padding-bottom: 20px;
 }
 
 .fetes .fetesDJ .pDJ2 p{
@@ -976,7 +1044,7 @@ header nav .ecusson2{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 0px;
+    padding: 5px 0px;
 }
 
 .fetes .fetesImg2 img,
@@ -993,7 +1061,8 @@ header nav .ecusson2{
 /*********** SIXIÈME PAGE: ASSO ***********/
 
 .association p{
-	padding-bottom: 20px;
+	padding-bottom: 30px;
+	width: 45%;
 }
 
 .association .assoImg,
@@ -1007,12 +1076,9 @@ header nav .ecusson2{
 	width: 45%;
 }
 
-.association .assoTxt p:first-child{
+.association .assoTxt p{
 	width: 45%;
-}
-
-.association .assoTxt p:last-child{
-	width: 44%;
+	text-align: center;
 }
 
 .association .assoTxt a{
@@ -1029,7 +1095,7 @@ header nav .ecusson2{
 /*********** FOOTER ***********/
 
 footer{
-	background: #3d3d3d;
+	background: #606060;
 	color: white;
 	padding: 50px;
 }
