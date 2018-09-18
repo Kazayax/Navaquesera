@@ -1,3 +1,8 @@
+/* 
+	vert: #008F4C; 
+	beige:#FAF0C5;
+*/
+
 * {
 	box-sizing: border-box; /* sert à ce que la padding ne fasse pas grossir l'élément, et donc ne fait pas grossir la page */
 }
@@ -57,13 +62,18 @@ header nav li{
 	color: black;
 }
 
-header nav li.active{
+header nav li.active{ /* lorsqu'on est sur une page, dans le menu le li de cette page s'affiche en vert */
 	color: #008F4C;
 }
 
 header nav li:hover{ 
 	color: #008F4C;
 	transition: 0.3s;
+}
+
+header nav #menuMobile,
+header nav ul .cross{
+	display: none;
 }
 
 header nav .ecusson2{

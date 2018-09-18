@@ -210,7 +210,12 @@
     	align-items: center;
 	}
 
+	header nav li{
+		color: #008F4C;
+	}
+
 	header #menu .menuMobile{
+		display: inline-block;
 		background: transparent;
     	border: 1px solid #008F4C;
     	border-radius: 5px;
@@ -243,6 +248,7 @@
 		position: absolute;
 	    top: 20px;
 	    right: 20px;
+	    display: inline-block!important;
 	}
 
 	header ul .cross img{
