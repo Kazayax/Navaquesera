@@ -337,6 +337,10 @@
 		width: 100%;
 	}
 
+	.pilon .pilonTxtImg img:first-child{
+	display: none;
+	}
+
 
 	.lieux .lieuxP  .btn2 {
 		font-size: 12px;
