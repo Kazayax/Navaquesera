@@ -12,14 +12,20 @@
 		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 
 		<link rel="stylesheet" type="text/css" href="styles/style.css">
+		<link rel="stylesheet" type="text/css" href="styles/responsive.css">
 
 	</head>
 	
 	<body>
 		<header>
 			<nav id="menu">
+				<button id="menuMobile" class="menuMobile">Menu</button>
 				<a href="index.html"><img class="ecusson" src="images/histoire/ecusson.png"></a>
-				<ul>
+				<ul id="navigation">
+					<li class="cross">
+						<img src="images/cross.png">
+					</li>
+
 					<li>
 						<a href="histoire.html">Histoire</a>
 					</li>
@@ -32,7 +38,7 @@
 						<a href="activités.html">Activités</a>
 					</li>
 
-					<li class="active">
+					<li>
 						<a href="fêtes.html">Fêtes</a>
 					</li>
 
@@ -114,5 +120,6 @@
 
 	</body>
 
-	<script type="text/javascript" src="scripts/app.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="scripts/app.js"></script>
 </html>

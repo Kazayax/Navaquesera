@@ -14,15 +14,21 @@
 		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 
 		<link rel="stylesheet" type="text/css" href="styles/style.css">
+		<link rel="stylesheet" type="text/css" href="styles/responsive.css">
 
 	</head>
 	
 	<body>
 		<header>
 			<nav id="menu">
+				<button id="menuMobile" class="menuMobile">Menu</button>
 				<a href="index.html"><img class="ecusson" src="images/histoire/ecusson.png"></a>
-				<ul>
-					<li class="active">
+				<ul id="navigation">
+					<li class="cross">
+						<img src="images/cross.png">
+					</li>
+
+					<li>
 						<a href="histoire.html">Histoire</a>
 					</li>
 
@@ -43,7 +49,7 @@
 					</li>
 				</ul>
 				<a href="index.html"><img class="ecusson2" src="images/histoire/ecusson.png"></a>
-			</nav>
+			</nav>		
 		</header>
 
 		<div class=" infos paddT paddLR">
@@ -80,6 +86,7 @@
 				<p>
 					- En haut de l'écusson nous pouvons facilement reconnaître la couronne royale espagnole, or sur rouge représentant l'emblème traditionnel de la Castille.</br>
 					- La couleur verte faisant le contour du bouclier fait référence aux pâturages issus du mot «Nava» qui représente une terre basse et plate, parfois marécageuse, située entre des montagnes.</br>
+					<img class="ecuTel" src="images/histoire/ecusson.png">
 					- Les 9 tours crénelées représentent les neufs populations ayant historiquement constitué le conseil de Burgohondo (Navaquesera, Navalacruz, Navaluenga, Navalosa, Navarredondilla, Navarrevisca, Navatalgordo, Hoyocasero et Burgohondo). La tour représentant Navaquesera se détache des autres car elle est soutenue par une chèvre de montagne.</br>
 					- Derrière l'animal, la couleur rouge fait référence à la couleur du royaume de Castille dont la population est attachée pour des raisons historiques, politiques et sentimentales.</br>
 					- Enfin, les cinq feuilles de figuier sur un fond or symbolisent la richesse arboricole du lieu.
@@ -198,4 +205,5 @@
 	</body>
 
 	<script type="text/javascript" src="scripts/app.js"></script>
+	<script src="scripts/slider.js"></script>
 </html>

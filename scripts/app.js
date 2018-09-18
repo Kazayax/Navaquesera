@@ -1,21 +1,11 @@
 $(document).ready(function(){ 
 
-	$('.histNavaqImg3').slick();
+	$('.menuMobile').click(function(){
+		$('#navigation').toggleClass('active');
+	})
 
-	$('.spotImg').slick({
-	  dots: true,
-	  infinite: true,
-	  speed: 300,
-	  slidesToShow: 1,
-	  adaptiveHeight: true
-	});
-	
-	$('.madridImg').slick({
-	  dots: true,
-	  infinite: true,
-	  speed: 300,
-	  slidesToShow: 1,
-	  adaptiveHeight: true
-	});		
+	$('.cross').click(function(){
+		$('#navigation').removeClass('active');
+	})
 
 });

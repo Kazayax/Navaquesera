@@ -1,0 +1,904 @@
+		/*********** RESPONSIVE ***********/
+
+
+@media screen and (max-width: 1080px) {
+
+
+		/** Première Page "Navaquesera" **/
+
+	.firstDiv h1{
+		bottom: 6%;
+	    left: 6%;
+	    width: 67%;
+	}
+
+	.histoire {
+		justify-content: space-around;
+	}
+
+	.histoire .hstrTxt h3{
+		width: 100%;
+	}
+
+	.histoire .hstrTxt p{
+		width: 100%;
+	}
+
+	.activités .actImg img{
+		width: 100%;
+	}
+
+	.activités .actTxt h3{
+		width: 105%;
+	}
+
+		/** Deuxième Page "Histoire" **/
+
+	.infos .infosImg{
+		width: 40%;
+	}
+
+	.infos .infosTxt {
+		width: 34%;
+	}
+
+	.signEcu .signEcuImg {
+		width: 22%
+	}
+
+	.signEcu .signEcuImg img{
+		width: 100%
+	}
+
+	.signEcu .signEcuTxt{
+		width: 44%;
+	}
+
+	.histNavaq .histNavaqImg2 img{
+		width: 40%;
+	}
+
+	.histNavaq .histNavaqImg3 .slide img{
+		width: 100%;
+	}
+
+	.histNavaqImg3 .slick-arrow::before{
+		font-size: 50px;
+	}
+
+
+		/** Troisième Page "Lieux" **/
+
+	.mairie {
+		padding-right: 0;
+	}
+
+	.pilon .pilonTxtImg img:first-child{
+		padding-left: 0;
+	}
+
+	.pilon .pilonTxtImg .pilonTt{
+		width: 35%;
+	}
+
+	.pilon .pilonTxtImg img:last-child{
+		padding-right: 0;
+	}
+
+	.pilon .pilonImg2{
+		width: 100%;
+	}
+
+	.nava .navaTxtImg1 .navaTxt1 p,
+	.nava .navaTxtImg2 .navaTxt2 p{
+		width: 75%;
+	}
+
+
+		/** Quatrième Page "Activités" **/
+
+	.petanque .petanque1 .petanque1Txt p {
+		width: 80%;
+	}
+
+	.petanque .petanque2 p{
+		width: 31%;
+	}
+
+	.foot p{
+		width: 61%;
+		margin: 0 auto;
+	}
+
+	.foot .footBanc p{
+		width: 75%;
+		margin: 0 auto;
+	}
+
+	.comida .comidaTxt p{
+		width: 80%;
+	    margin: 0 auto;
+	}
+
+	.jeux .jeuxTxt p{
+		width: 46%;
+	}
+
+	.pantano .pantanoTxt p{
+		width: 100%;
+		text-align: center;;
+	}
+
+	.promenade .promenadeTaur p{
+		width: 25%;
+	}
+
+
+
+			/** Cinquième Page "Fêtes" **/
+
+	.fetes .fetesTxtImg img{
+		width: 35%;
+	}
+
+	.fetes .fetesTxtImg .fetesTxt p{
+		width: 57%
+	}
+
+
+			/** Sixième Page "Association" **/
+
+	.association p{
+		width: 100%;
+	}
+
+
+					/** FOOTER **/
+
+	.footerAll .diputacion{
+		width: 33%;
+	}
+
+	.footerAll .reseaux img {
+		padding-right: 5px;
+	}
+
+}
+
+
+
+@media screen and (max-width: 1300px){
+
+		/** Deuxième Page "Histoire" **/
+
+
+	.histNavaqImg3 .slick-prev{
+		left: 0%;
+	}
+
+	.histNavaqImg3 .slick-next{
+		right: 0%;
+	}
+
+}
+
+
+
+
+		/** RESPONSIVE FORMAT TELEPHONE **/
+
+@media screen and (max-width: 500px){
+	h3{
+		font-size: 20px;
+	}
+
+	p{
+		font-size: 14px;
+	}
+
+	.btn{
+		font-size: 14px; 
+	}
+
+				/** HEADER **/
+
+	header nav{
+		text-align: center;
+		height: 105px;
+		display: flex;
+    	justify-content: center;
+    	align-items: center;
+	}
+
+	header #menu .menuMobile{
+		background: transparent;
+    	border: 1px solid #008F4C;
+    	border-radius: 5px;
+    	padding: 7px 14px;
+    	font-size: 25px;
+    	color: #008F4C;
+	}
+
+
+	header #menu ul{
+		display: none;
+		position: fixed;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background: #FAF0C5;
+		z-index: 10;
+		width: 100%;
+		flex-direction: column;
+		text-align: center;
+   		justify-content: space-evenly;
+	}
+
+	header #menu ul.active{
+		display: flex;
+	}
+
+	header ul .cross{
+		position: absolute;
+	    top: 20px;
+	    right: 20px;
+	}
+
+	header ul .cross img{
+		width: 40px;
+	}
+
+
+		/** Première Page "Navaquesera" **/
+
+	.firstDiv{
+		background-position: center;
+	}
+
+	.firstDiv h1{
+		bottom: 5%;
+   		left: 10%;
+   		font-size: 34px;
+	}
+
+	.histoire {
+		flex-direction: column;
+	}
+
+	.histoire .hstrTxt{
+		width: 100%;
+		text-align: initial;
+	}
+
+	.histoire .hstrTxt p{
+		width: 99%;
+	}
+
+	.histoire .hstrImg{
+		width: 100%
+	}
+
+	.histoire .hstrImg img{
+		width: 100%;
+	}
+
+
+
+	.activités{
+		flex-direction: column;
+	}
+
+	.activités .actImg{
+		width: 100%;
+	}
+
+	.activités .actImg img{
+		width: 100%;
+		padding-top: 0;
+	}
+
+	.activités .actTxt{
+		width: 100%;
+		text-align: justify;
+		padding: 0;
+	}
+
+	.activités .actTxt h3{
+		width: 100%;
+		text-align: initial;
+	}
+
+
+
+	.lieux h3{
+		width: 80%;
+    	margin: 0 auto;
+    	padding-bottom: 25px;
+	}
+
+	.lieux .lieuxP{
+		width: 100%;
+    	flex-direction: column;
+	}
+
+	.lieux .lieuxP .pilon{
+		margin-bottom: 40px;
+	}
+
+	.lieux .lieuxP .pilon,
+	.lieux .lieuxP .parcNeige{
+		width: 100%;
+	}
+
+
+	.lieux .lieuxP  .btn2 {
+		font-size: 12px;
+	}
+
+	.lieux .btn{
+		margin: 20px auto 0;
+	}
+
+
+	.doubleDiv{
+		flex-direction: column;
+	}
+
+	.doubleDiv .miniDiv{
+		width: 100%;
+	}
+
+	.doubleDiv .miniDiv p{
+		width: 100%;
+	}
+
+	.doubleDiv .fetes{
+		padding-bottom: 50px;
+	}
+
+
+		/** Deuxième Page "Histoire" **/
+
+	.infos{
+		flex-direction: column;
+		width: 100%;
+		padding-left: 30px;
+	}
+
+	.infos .infosTxt{
+		width: 100%;
+	}
+
+	.infos .infosImg{
+		width: 100%;
+	}
+
+
+	.signEcu {
+		width: 100%;
+	    padding-right: 30px;
+	    flex-direction: column;
+	}
+
+	.signEcu .signEcuImg{
+		display: none;
+	}
+
+	/*.signEcu .signEcuImg img{
+		width: 50%;
+		padding-bottom: 30px;
+	}*/
+
+	.signEcu .signEcuTxt{
+		width: 100%;
+   		padding-right: 20px;
+   		text-align: initial;
+	}
+
+	.signEcu .signEcuTxt .ecuTel{
+		display: block;
+		margin: 15px auto 20px auto;
+		width: 50%;
+	}
+
+
+	.histNavaq {
+		width: 100%;
+		flex-direction: column;
+	}
+
+	.histNavaq .histNavaqImg1 img{
+		width: 100%;
+	}
+
+	.histNavaq .histNavaqImg2 {
+		flex-direction: column;
+	}
+
+	.histNavaq .histNavaqImg2 img{
+		width: 100%;
+		padding-right: 0;
+	}
+
+	.histNavaq .histNavaqImg2 img:first-child{
+		padding-bottom: 20px;
+	}
+
+	.histNavaq .imgHistNavaq2 img{
+		width: 100%;
+	}
+
+	.histNavaq .histNavaqImg3 .slick-arrow{
+		height: 0;
+	}
+
+	.histNavaq .histNavaqImg3 .slick-arrow::before{
+		font-size: 30px
+	}
+
+
+
+		/** Troisième Page "Lieux" **/
+
+
+	.plazaMairie {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.plazaMairie .plaza{
+		width: 100%;
+	}
+
+	.plazaMairie .plaza .plaza1{
+		padding-top: 40px;
+	}
+
+	.plazaMairie .plaza .plaza2{
+		padding-top: 50px;
+	}
+
+	.plazaMairie .mairie{
+		padding-top: 0;
+		padding-right: 50px;
+		width: 100%;
+	}
+
+	.plazaMairie .mairie p{
+		width: 100%;
+	}
+
+	.plazaMairie .mairie img{
+		padding: 20px 0 15px 0;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.plazaMairie .mairie img:first-child{
+		padding-top: 20px;
+	}
+
+
+	.parc .parcTxt p{
+		width: 100%;
+	}
+
+	.parc .parcImg{
+		width: 100%;
+		flex-direction: column;
+	}
+
+	.parc .parcImg img{
+		width: 100%;
+	}
+
+	.parc .parcImg img:last-child,
+	.eglise .egliseImg img:last-child{
+		padding-top: 40px;
+	}
+
+	.eglise .egliseImg{
+		width: 100%;
+		flex-direction: column;
+		align-items: initial;
+	}
+
+	.eglise .egliseImg img{
+		width: 100%;
+	}
+
+
+	.pilon {
+		width: 100%;
+	}
+
+	.pilon .pilonTxtImg {
+		flex-direction: column;
+	}
+
+	.pilon .pilonTxtImg img{
+		width: 70%;
+	}
+
+	.pilon .pilonTxt{
+		width: 100%;
+	}
+
+
+	.rocherPlat {
+		width: 100%;
+		flex-direction: column;
+	}
+
+	.rocherPlat .rocherPlatTxt p{
+		width: 100%;
+	}
+
+	.rocherPlat .rocherPlatImg1 img,
+	.rocherPlat .rocherPlatImg2 img{
+		width: 100%;
+		padding-top: 40px;
+	}
+
+	.rocherPlat .rocherPlatImg2 p {
+		text-align: left;
+	}
+
+	.mirador,
+	.calvario {
+		width: 100%
+	}
+
+	.mirador .miradorTxt p,
+	.calvario .calvarioTxt p {
+		width: 100%;
+	}
+
+
+	.nava {
+		width: 100%;
+	}
+
+	.nava .navaTxtImg1,
+	.nava .navaTxtImg2 {
+		flex-direction: column;
+	}
+
+	.nava .navaTxtImg1 img {
+		width: 100%;
+		padding: 30px 0;
+	}
+
+	.nava .navaTxtImg2 img {
+		width: 100%;
+		padding-bottom: 30px;
+	}
+
+
+	.spot {
+		width: 100%;
+	}
+
+
+
+		/** Quatrième Page "Activités" **/
+
+
+	.petanque .petanque1 {
+		flex-direction: column-reverse;
+	}
+
+	.petanque .petanque1 img {
+		width: 100%;
+    	padding-bottom: 30px;
+	}
+
+	.petanque .petanque2 {
+		flex-direction: column;
+	}
+
+	.petanque .petanque2 p {
+		width: 100%;
+	}
+
+	.petanque .petanque2 img{
+		width: 100%;
+		padding-top: 30px;
+	}
+
+
+	.basket .basketImgTxt {
+		flex-direction: column-reverse;
+	}
+
+	.basket .basketImgTxt .basketImg1,
+	.basket .basketImg2 {
+		width: 100%;
+	}
+
+	.basket .basketImg2{
+		padding-top: 30px;
+	}
+
+	.basket .basketImgTxt .basketTxt {
+		width: 100%;
+		padding: 20px 0;
+	}
+
+	.foot p{
+		width: 100%;
+	}
+
+	.foot .footCdm{
+		padding-bottom: 30px;
+	}
+
+	.foot .footCdm  img:first-child{
+		width: 80%;
+		padding-bottom: 10px;
+	}
+
+	.foot .footCdm  img:last-child{
+		width: 100%;
+	}
+
+	.foot .footBanc p {
+		padding-top: 0;
+		width: 100%;
+	}
+
+	.foot .footBanc img {
+		width: 100%;
+	}
+
+
+	.carrera .carreraImg1 {
+		flex-direction: column;
+		width: 100%
+	}
+
+	.carrera .carreraImg1 img{
+		padding: 20px 0 10px 0;
+		width: 100%;
+	}
+
+
+	.carrera .carreraTxt p{
+		width: 100%;
+	}
+
+	.carrera .carreraImg2 img{
+		width: 100%;
+	}
+
+	.carrera .carreraImg2 img:first-child{
+		padding: 0 0 10px 0;
+	}
+
+	.carrera .carreraImg2 img:last-child{
+		padding: 0;
+	}
+
+
+	.comida .comidaTxt p{
+		width: 100%;
+		text-align: justify;
+	}
+
+	.comida .comidaImg {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.comida .comidaImg img:first-child{
+		padding: 0 0 10px 0;
+    	width: 70%;
+	}
+
+	.comida .comidaImg img:last-child{
+		width: 100%;
+	}
+
+
+
+	.jeux .jeuxTxt p {
+		width: 100%;
+		text-align: justify;
+	}
+
+	.jeux .jeuxImg,
+	.piscine .piscineImg,
+	.pantano .pantanoImg {
+		flex-direction: column;
+	}
+
+	.jeux .jeuxImg img,
+	.piscine .piscineImg img,
+	.pantano .pantanoImg img {
+		width: 100%;
+	}
+
+	.jeux .jeuxImg img:first-child,
+	.piscine .piscineImg img:first-child,
+	.pantano .pantanoImg img:first-child{
+		padding-bottom: 30px;
+	}
+
+	.pantano .pantanoImg img:last-child{
+		padding-top: 30px;
+	}
+
+
+	.madrid p{
+		text-align: justify;
+	}
+
+
+	.promenade .promenadeAne{
+		justify-content: space-between;
+		padding-top: 10px;
+	}
+
+	.promenade .promenadeAne p{
+		width: 53%;
+    	padding-top: 5px;
+    	text-align: initial;
+	}
+
+	.promenade .promenadeAne img{
+		width: 40%;
+	}
+
+	.promenade .promenadeTaur{
+		flex-direction: column-reverse;
+		padding-top: 30px;
+		padding-bottom: 0;
+	}
+
+	.promenade .promenadeTaur p{
+		width: 100%;
+    	text-align: center;
+	}
+
+	.promenade .promenadeTaur img{
+		width: 90%;
+    	padding-top: 10px;
+	}
+
+
+	.fetes .fetesTxtImg{
+		flex-direction: column-reverse;
+	}
+
+	.fetes .fetesTxtImg .fetesTxt p{
+		width: 100%;
+	}
+
+	.fetes .fetesTxtImg img{
+		width: 80%;
+    	padding-top: 40px;
+	}
+
+
+	.fetes .fetesPena p{
+		width: 100%;
+	}
+
+	.fetes .fetesPena img{
+		width: 100%;
+	}
+
+	.fetes .fetesDJ p{
+		width: 100%;
+		padding-top: 0;
+	}
+
+	.fetes .fetesImg1,
+	.fetes .fetesImg2{
+		flex-direction: column;
+	}
+
+	.fetes .fetesImg3{
+		flex-direction: column-reverse;
+	}
+
+	.fetes .fetesImg1 img,
+	.fetes .fetesImg2 img,
+	.fetes .fetesImg3 img{
+		width: 100%;
+	}
+
+	.fetes .fetesImg1 img:first-child{
+		padding-bottom: 20px;
+	}
+
+	.fetes .fetesImg2 img:first-child,
+	.fetes .fetesImg3 img:first-child{
+		padding: 0 0 10px 0;
+	}
+
+	.fetes .fetesImg2 img:last-child{
+		padding: 0;
+	}
+
+	.fetes .fetesImg3 img:last-child{
+		padding: 0 0 10px 0; 
+	}
+
+	.association .assoImg{
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.association .assoTxt{
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.association .assoTxt p{
+		width: 100%;
+	}
+
+	.association .assoImg{
+		flex-direction: column;
+	}
+
+	.association .assoImg img {
+		width: 100%;
+		padding: 10px 0;
+	}
+
+	.association .assoImg img:last-child{
+		padding-bottom: 30px;
+	}
+
+	.association .assoTxt p:first-child{
+		padding: 0 0 20px 0;
+	}
+
+	.association .assoTxt p:last-child{
+		padding: 0;
+	}
+
+
+
+				/**** FOOTER ****/
+
+	.footerAll{
+		flex-direction: column;
+	    text-align: center;
+	}
+
+	.footerAll .diputacion{
+		width: 100%;
+		padding-bottom: 20px;
+	}
+
+	.footerAll .flaticon{
+		width: 100%;
+	}
+
+	.footerAll .flaticon ul{
+		width: 235px;
+		margin: 0 auto;
+	}
+
+	.footerAll .flaticon ul li{
+		padding: 0;
+		font-size: 12px; 
+		margin-bottom: 5px;
+	}
+
+	.footerAll .reseaux{
+		padding-top: 20px;
+	}
+
+
+	footer .moi {
+		padding-top: 10px;
+		float: none;
+    	text-align: center;
+	}
+
+}

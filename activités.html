@@ -14,14 +14,20 @@
 		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 
 		<link rel="stylesheet" type="text/css" href="styles/style.css">
+		<link rel="stylesheet" type="text/css" href="styles/responsive.css">
 
 	</head>
 	
 	<body>
 		<header>
 			<nav id="menu">
+				<button id="menuMobile" class="menuMobile">Menu</button>
 				<a href="index.html"><img class="ecusson" src="images/histoire/ecusson.png"></a>
-				<ul>
+				<ul id="navigation">
+					<li class="cross">
+						<img src="images/cross.png">
+					</li>
+
 					<li>
 						<a href="histoire.html">Histoire</a>
 					</li>
@@ -30,7 +36,7 @@
 						<a href="lieux.html">Lieux</a>
 					</li>
 
-					<li class="active">
+					<li>
 						<a href="activités.html">Activités</a>
 					</li>
 
@@ -115,7 +121,7 @@
 		<div class="comida paddLR">
 			<div class="comidaTxt">
 				<h3>La comida:</h3>
-				<p>Venez manger le 15 Août sur la place du village, autour de ce repas convivial et ainsi découvrir de nombreux plats traditionnels espagnols comme la paella.</p>
+				<p>Venez manger le 15 Août sur la place du village, autour d'un bon repas convivial . Vous pourrez ainsi découvrir de nombreux plats traditionnels espagnols comme la paella, et bien d'autres!</p>
 			</div>
 			<div class="comidaImg">
 				<img src="images/activités/comida.jpg">
@@ -221,4 +227,5 @@
 	</body>
 
 	<script type="text/javascript" src="scripts/app.js"></script>
+	<script src="scripts/slider.js"></script>
 </html>

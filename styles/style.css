@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box; /* sert à ce que la padding ne fasse pas grossir l'élément, et donc ne fait pas grossir la page */
+}
+
 body, button {
 	font-family: 'Montserrat', sans serif;
 }
@@ -362,6 +366,10 @@ header nav .ecusson2{
 	text-align: justify;
 }
 
+.ecuTel {
+	display: none;
+}
+
 
 		/** L'histoire de Navaquesera (3) **/
 .histNavaq{
@@ -369,7 +377,7 @@ header nav .ecusson2{
 }
 
 .histNavaq p{
-	padding-right: 50px;
+	width: 96%;
 }
 
 .histNavaq .histNavaqImg1 {
@@ -400,7 +408,12 @@ header nav .ecusson2{
 	display: flex;
 	justify-content: center;
 	padding: 50px 0;
+	align-items: flex-start;
 
+}
+
+.histNavaq .imgHistNavaq2 img{
+	width: 80%;
 }
 
 .histNavaq .histNavaqTxt2 p{
@@ -428,13 +441,13 @@ header nav .ecusson2{
 
 .histNavaqImg3 .slick-prev,
 .histNavaqImg3 .slick-next{
-	z-index: 9999;
+	z-index: 9;
     width: 50px;
     height: 50px;
 }
 
-.histNavaqImg3 .slick-prev::before,
-.histNavaqImg3 .slick-next::before{
+.histNavaqImg3 .slick-prev:before,
+.histNavaqImg3 .slick-next:before{
 	font-size: 50px;
     line-height: 1.16;
     color: #cccccc;
@@ -532,6 +545,10 @@ header nav .ecusson2{
     justify-content: space-between;
 }
 
+.pilon .pilonTxtImg img:first-child{
+	display: none;
+}
+
 .pilon .pilonTxtImg img{
 	width: 30%;
 }
@@ -553,6 +570,7 @@ header nav .ecusson2{
 .pilon .pilonImg2{
 	display: block;
     margin: 0 auto;
+    width: 95%;
 }
 
 
@@ -624,6 +642,7 @@ header nav .ecusson2{
 .calvario img{
 	display: block;
 	margin: 0 auto;
+	width: 95%;
 }
 
 
@@ -739,6 +758,10 @@ header nav .ecusson2{
 	margin: auto;
 }
 
+.basket .basketImgTxt .basketTxt p{
+	text-align: justify;
+}
+
 .basket .basketImgTxt .basketImg1 p{
 	padding: 0;
     font-style: italic;
@@ -774,7 +797,7 @@ header nav .ecusson2{
 }
 
 .foot .footCdm {
-	width: 100%
+	width: 100%;
 	padding: 10px 0 50px 0;
 }
 
@@ -813,11 +836,7 @@ header nav .ecusson2{
     align-items: center;
 }
 
-.carrera .carreraImg1 img:first-child{
-	width: 47%;
-}
-
-.carrera .carreraImg1 img:last-child{
+.carrera .carreraImg1 img{
 	width: 47%;
 }
 
@@ -1007,6 +1026,9 @@ header nav .ecusson2{
 	padding-bottom: 30px;
 }
 
+.fetes .fetesPena img{
+	width: 85%;
+}
 .fetes .fetesDJ p{
 	width: 55%;
 	padding: 50px 0 45px 0;
